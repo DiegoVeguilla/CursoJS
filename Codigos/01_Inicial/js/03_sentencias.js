@@ -1,4 +1,3 @@
-
 /*//if
 
 let nota=10;
@@ -55,21 +54,22 @@ while(numIntroducido!=numAleatorio){
 alert(`Ha ganado en ${numIntentos} intentos`)
 */
 
+/*
 //for
 
 let coleccionPalabras= ["uno", "dos", "tres", "cuatro", "cinco", "seis"];
 
-/*r (let index = 0; index < coleccionPalabras.length; index++) {
+(let index = 0; index < coleccionPalabras.length; index++) {
     console.log(`Ejecución ${coleccionPalabras[index]}`)
     console.log(`\t${typeof coleccionPalabras[index]}`)
-}*/
+}
 
-/*coleccionPalabras.forEach((element, index, array) => {
+coleccionPalabras.forEach((element, index, array) => {
     console.log(index)
     console.log(`\t${element}`);
     console.log(`\t\t${typeof element}`);
     console.log(`\t\t\t${array}`)
-});*/
+})
 
 //forin
 
@@ -80,6 +80,43 @@ for (const key in coleccionPalabras) {
 
 //forof. Foreach de java.
 
-/*for (const iterator of coleccionPalabras) {
+for (const iterator of coleccionPalabras) {
     console.log(iterator)
 }*/
+
+/*
+//Switch
+
+let opcion = prompt("Indica la opción");
+if (!isNaN(opcion)) {
+  switch (opcion) {
+    case 1:
+
+      break;
+    case 2:
+
+      break;
+    case 3:
+
+      break;
+    case 4:
+
+      break;
+    default:
+
+      break;
+  }
+}else{
+    console.log("Valor no númerico");
+}
+*/
+
+//confirmación
+
+let confirmacion=confirm("Estás seguro de querer continuar?")
+
+if(confirmacion){
+    alert("Términos aceptados")
+}else{
+    alert("Proceso cancelado")
+}
